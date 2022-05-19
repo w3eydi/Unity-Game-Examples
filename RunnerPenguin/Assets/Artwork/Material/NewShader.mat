@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AtlasTexture
-  m_Shader: {fileID: -6465566751694194690, guid: 4197680f3d8abe94abdb98fd0a6c52cb, type: 3}
+  m_Name: NewShader
+  m_Shader: {fileID: -6465566751694194690, guid: a169d152c0761364b956a0f247acc626, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,16 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_360CD7C4:
-        m_Texture: {fileID: 2800000, guid: 4229d4d685c10a749bc8af9e51bfeb20, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_f860c7e9e1394c788c71972ace667163:
+    - Texture2D_0e8c2f2abe974eeda70d2f443544b276:
         m_Texture: {fileID: 2800000, guid: 4229d4d685c10a749bc8af9e51bfeb20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 4229d4d685c10a749bc8af9e51bfeb20, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -52,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4229d4d685c10a749bc8af9e51bfeb20, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -67,7 +63,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_dd71cd10aa0e4493bc4257aed9c0d0a6_Texture_1:
+    - _SampleTexture2D_e360980932c74116a4a60c528d473dc4_Texture_1:
         m_Texture: {fileID: 2800000, guid: 4229d4d685c10a749bc8af9e51bfeb20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -88,9 +84,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_253A888: 1
-    - Vector1_995B999E: 0.005
-    - Vector1_b1b4da76c8274dcd9bdb048a6b610150: 0.02
+    - Vector1_2e1ec3f122bc4571bedd9ff2a4539ce9: 0.02
+    - Vector1_813d321e28804b2aa7d0678bfc4a67c9: 1
+    - Vector1_e84c90bb65fb4af88562ce6940ca8edd: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -118,15 +114,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Vector2_550f3df1000b45a485c120a769a57962: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_83f33c82c97549a599e1c80d0af95ada: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - snowOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &4262550184579527793
+--- !u!114 &4744027386536563683
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
