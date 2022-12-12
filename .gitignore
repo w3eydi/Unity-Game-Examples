@@ -58,3 +58,12 @@
 # Crashlytics generated file
 **/crashlytics-build.properties
 
+# Windows
+**/Thumbs.db
+**/Thumbs.db.meta
+
+# MacOS
+**/*.DS_Store
+
+# VS Code
+**/*.vscode
