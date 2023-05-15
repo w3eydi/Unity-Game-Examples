@@ -3,11 +3,11 @@ You can review Unity game examples with their codes.
 
 ## [RunnerPenguin](RunnerPenguin)
 ---
-![](RunnerPenguin/img/GameScreen1.png)
+![](images/RunnerPenguin.png)
 
-## [2D Game Kit](https://github.com/w3eydi/Unity-Game-Examples/tree/2D-Game-Kit)
+## [Kitchen Game](https://github.com/w3eydi/Unity-Game-Examples/tree/kitchen_game)
 ---
-![](RunnerPenguin/img/GameScreen1.png)
+![](images/kitchen_chaos.jpg)
 
 ## ShaderGraph
 ---
