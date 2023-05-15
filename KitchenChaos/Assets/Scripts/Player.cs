@@ -10,6 +10,19 @@ public class Player : MonoBehaviour
     private bool isWalking;
 
     private void Update() {
+        HandleMovement();
+        HandleInteractions();
+    }
+
+    public bool IsWalking() {
+        return isWalking;
+    }
+
+    private void HandleInteractions() {
+
+    }
+
+    private void HandleMovement() {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
 
         Vector3 moveDirection = new Vector3(inputVector.x, 0f, inputVector.y);
@@ -46,10 +59,5 @@ public class Player : MonoBehaviour
 
         float rotateSpeed = 11f;
         transform.forward = Vector3.Slerp(transform.forward, moveDirection, Time.deltaTime * rotateSpeed);
-
-    }
-
-    public bool IsWalking() {
-        return isWalking;
     }
 }
